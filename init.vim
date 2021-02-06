@@ -73,7 +73,7 @@ let g:airline_powerline_fonts = 1
 
 
 "emmet settings
-let g:user_emmet_leader_key='<tab>'
+let g:user_emmet_leader_key='<A>'
 let g:user_emmet_install_global = 0
 autocmd FileType html,css EmmetInstall
 
