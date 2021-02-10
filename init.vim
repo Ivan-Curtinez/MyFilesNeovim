@@ -115,3 +115,4 @@ nmap <Leader>\ :vs<CR>
 "buffers
 nmap <TAB> :bn<CR>
 nmap <S-TAB> :bp<CR>
+nmap <Leader><TAB> :bd<CR>
