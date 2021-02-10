@@ -20,7 +20,8 @@
     "yaml",
     "json",
     "python",
-    "hbs"
+    "hbs",
+    "xml"
   ],
   "suggest.noselect": false
 }

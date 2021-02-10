@@ -22,6 +22,16 @@ Plug 'morhetz/gruvbox'
 "IDE
 Plug 'easymotion/vim-easymotion'
 
+"javascript sintax
+Plug 'jelera/vim-javascript-syntax' 
+Plug 'mxw/vim-jsx'
+Plug 'elzr/vim-json'
+"React
+Plug 'carlitux/deoplete-ternjs'
+Plug 'ternjs/tern_for_vim'
+Plug 'maxmellon/vim-jsx-pretty'
+
+
 "Nerd tree
 Plug 'scrooloose/nerdtree'
 
@@ -88,6 +98,8 @@ let g:coc_global_extensions = [
   \ 'coc-highlight',
   \ 'coc-ember'
   \ ]
+"react config
+let g:vim_jsx_pretty_colorful_config = 1 " default 0
 
 "Save
 nmap <Leader>w :w<CR>  
