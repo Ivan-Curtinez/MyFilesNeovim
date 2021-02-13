@@ -21,7 +21,8 @@
     "json",
     "python",
     "hbs",
-    "xml"
+    "xml",
+    "jsx"
   ],
   "suggest.noselect": false
 }
