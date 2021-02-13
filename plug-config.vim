@@ -36,3 +36,7 @@ let g:coc_global_extensions = [
   \ ]
 "react config
 let g:vim_jsx_pretty_colorful_config = 1 " default 0
+
+"indentLine
+let g:indentLine_fileTypeExclude = ['text', 'sh', 'help', 'terminal']
+let g:indentLine_bufNameExclude = ['NERD_tree.*', 'term:.*']

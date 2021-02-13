@@ -44,4 +44,9 @@ Plug 'alvan/vim-closetag'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim',
 
+"indentLine
+Plug 'Yggdroot/indentLine'
+
+"git-nerdtree
+Plug 'xuyuanp/nerdtree-git-plugin'
 call plug#end()
