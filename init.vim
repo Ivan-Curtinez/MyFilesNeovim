@@ -13,9 +13,9 @@ set tabstop=2
 set shiftwidth=2
 
 "import plug
-so ~/.config/nvim/plugins.vim
+so ~/appdata/local/nvim/plugins.vim
 "import plug config
-so ~/.config/nvim/plug-config.vim
+so ~/appdata/local/nvim/plug-config.vim
 
 "import key maps
-so ~/.config/nvim/key-map.vim
+so ~/appdata/local/nvim/key-map.vim
