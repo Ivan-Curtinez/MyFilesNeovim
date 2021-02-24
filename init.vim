@@ -1,6 +1,6 @@
 set mouse=a
 set numberwidth=1
-set clipboard=unnamed
+set clipboard=unnamedplus
 syntax enable
 set showcmd
 set ruler
@@ -11,11 +11,18 @@ set relativenumber
 set expandtab
 set tabstop=2
 set shiftwidth=2
+set number
+set nowrap
+set noswapfile
+set nobackup
+set termguicolors
+set colorcolumn=120
+highlight ColoColum ctermbg=0 guibg=LightGray
 
 "import plug
-so ~/.config/nvim/plugins.vim
+so ~/appdata/local/nvim/plugins.vim
 "import plug config
-so ~/.config/nvim/plug-config.vim
+so ~/appdata/local/nvim/plug-config.vim
 
 "import key maps
-so ~/.config/nvim/key-map.vim
+so ~/appdata/local/nvim/key-map.vim
