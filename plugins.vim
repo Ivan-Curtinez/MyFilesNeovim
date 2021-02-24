@@ -4,8 +4,19 @@ Plug 'morhetz/gruvbox'
 "Plug 'ajmwagar/vim-deus'
 "Plug 'joshdick/onedark.vim'
 
+"prettier
+Plug 'prettier/vim-prettier', {
+  \ 'do': 'yarn install',
+  \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'yaml', 'html'] }
+
 "IDE
 Plug 'easymotion/vim-easymotion'
+
+"devicons
+"Plug 'ryanoasis/vim-devicons'
+
+"rust
+Plug 'rust-lang/rust.vim'
 
 "javascript sintax
 Plug 'jelera/vim-javascript-syntax' 
