@@ -27,3 +27,8 @@ noremap <silent> <up> :resize +5 <CR>
 noremap <silent> <down> :resize -5 <CR>
 "abir archivo de configuracion
 noremap <Leader>e :e $MYVIMRC<CR>
+"fzf commands
+nnoremap <c-p> :Files<CR>
+nnoremap <c-g> :GitFiles<CR>
+"easymotion commands
+nmap <Leader>s <Plug>(easymotion-s2)

@@ -4,7 +4,6 @@ let g:gruvbox_contrast_dark = "hard"
 
 "esasymotion
 let mapleader=" "
-nmap <Leader>s <Plug>(easymotion-s2)
 
 "nerdtree 
 let NERDTreeQuitOnOpen=1 
@@ -41,12 +40,18 @@ let g:vim_jsx_pretty_colorful_config = 1 " default 0
 "indentLine
 let g:indentLine_fileTypeExclude = ['text', 'sh', 'help', 'terminal']
 let g:indentLine_bufNameExclude = ['NERD_tree.*', 'term:.*']
-let g:indentLine_char_list = ['|', '¦', '┆', '┊']
+let g:indentLine_char_list = ['│', '┊']
 
 "fzf
 let g:fzf_preview_window = 'right:40%'
-nnoremap <c-p> :Files<CR>
-nnoremap <c-g> :GitFiles<CR>
-"" use current git repo/file director with ctrl p
 let g:ctrlp_working_path_mode = 'ra'
 let g:ctrlp_use_caching = 0"
+
+"signify
+let g:signify_sign_add               = '+'
+let g:signify_sign_delete            = '_'
+let g:signify_sign_delete_first_line = '‾'
+let g:signify_sign_change            = '~'
+let g:signify_sign_show_count = 0
+let g:signify_sign_show_text = 1
+

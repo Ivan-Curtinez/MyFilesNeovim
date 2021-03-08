@@ -13,7 +13,7 @@ Plug 'prettier/vim-prettier', {
 Plug 'easymotion/vim-easymotion'
 
 "devicons
-"Plug 'ryanoasis/vim-devicons'
+Plug 'ryanoasis/vim-devicons'
 
 "rust
 Plug 'rust-lang/rust.vim'
@@ -57,6 +57,9 @@ Plug 'junegunn/fzf.vim',
 
 "indentLine
 Plug 'Yggdroot/indentLine'
+
+"signify
+Plug 'mhinz/vim-signify'
 
 "git-nerdtree
 Plug 'xuyuanp/nerdtree-git-plugin'
