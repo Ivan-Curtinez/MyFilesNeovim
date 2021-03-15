@@ -20,9 +20,9 @@ set colorcolumn=120
 highlight ColoColum ctermbg=0 guibg=LightGray
 
 "import plug
-so ~/appdata/local/nvim/plugins.vim
+so ~/.config/nvim/plugins.vim
 "import plug config
-so ~/appdata/local/nvim/plug-config.vim
+so ~/.config/nvim/plug-config.vim
 
 "import key maps
-so ~/appdata/local/nvim/key-map.vim
+so ~/.config/nvim/key-map.vim
