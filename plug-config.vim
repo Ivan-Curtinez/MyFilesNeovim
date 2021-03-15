@@ -32,7 +32,10 @@ let g:coc_global_extensions = [
   \ 'coc-html',
   \ 'coc-vimlsp',
   \ 'coc-highlight',
-  \ 'coc-ember'
+  \ 'coc-ember',
+  \ 'coc-java',
+  \ 'coc-emmet',
+  \ 'coc-prettier'
   \ ]
 "react config
 let g:vim_jsx_pretty_colorful_config = 1 " default 0
