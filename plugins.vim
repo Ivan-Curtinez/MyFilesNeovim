@@ -1,8 +1,7 @@
 call plug#begin('~/.config/nvim/plugged')
 "themes
 Plug 'morhetz/gruvbox'
-"Plug 'ajmwagar/vim-deus'
-"Plug 'joshdick/onedark.vim'
+Plug 'nanotech/jellybeans.vim'
 
 "prettier
 Plug 'prettier/vim-prettier', {

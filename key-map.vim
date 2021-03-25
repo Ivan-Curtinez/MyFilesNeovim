@@ -32,3 +32,5 @@ nnoremap <c-p> :Files<CR>
 nnoremap <c-g> :GitFiles<CR>
 "easymotion commands
 nmap <Leader>s <Plug>(easymotion-s2)
+"reolad page
+nmap <F5> :source %<CR>

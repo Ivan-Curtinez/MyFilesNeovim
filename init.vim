@@ -18,6 +18,7 @@ set nobackup
 set termguicolors
 set colorcolumn=120
 highlight ColoColum ctermbg=0 guibg=LightGray
+set cursorline
 
 "import plug
 so ~/.config/nvim/plugins.vim
@@ -26,3 +27,4 @@ so ~/.config/nvim/plug-config.vim
 
 "import key maps
 so ~/.config/nvim/key-map.vim
+
