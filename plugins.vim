@@ -49,6 +49,8 @@ Plug 'mattn/emmet-vim'
 "Close pairs () [] {} ''
 Plug 'jiangmiao/auto-pairs'
 Plug 'alvan/vim-closetag'
+"commentary
+Plug 'tpope/vim-commentary'
 
 "FZF
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
@@ -57,7 +59,7 @@ Plug 'junegunn/fzf.vim',
 "indentLine
 Plug 'Yggdroot/indentLine'
 
-"signify
+"signify git 
 Plug 'mhinz/vim-signify'
 
 "git-nerdtree

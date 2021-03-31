@@ -1,10 +1,10 @@
 "gruvbox theme
-"colorscheme gruvbox
-"let g:gruvbox_contrast_dark = 'hard'
-"let g:gruvbox_invert_tabline = 1
+colorscheme gruvbox
+let g:gruvbox_contrast_dark = 'hard'
+let g:gruvbox_invert_tabline = 1
 
 "jellybeans theme
-colorscheme jellybeans
+"colorscheme jellybeans
 
 hi! Normal ctermbg=NONE guibg=NONE 
 "esasymotion
