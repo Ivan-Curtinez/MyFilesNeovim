@@ -2,6 +2,11 @@ call plug#begin('~/.config/nvim/plugged')
 "themes
 Plug 'morhetz/gruvbox'
 Plug 'nanotech/jellybeans.vim'
+Plug 'sainnhe/gruvbox-material'
+
+"mysql viim
+Plug 'https://github.com/kezhenxu94/vim-mysql-plugin.git'
+
 
 "prettier
 Plug 'prettier/vim-prettier', {
@@ -49,6 +54,8 @@ Plug 'mattn/emmet-vim'
 "Close pairs () [] {} ''
 Plug 'jiangmiao/auto-pairs'
 Plug 'alvan/vim-closetag'
+Plug 'luochen1990/rainbow'
+
 "commentary
 Plug 'tpope/vim-commentary'
 

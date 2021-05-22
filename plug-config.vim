@@ -1,11 +1,10 @@
 "gruvbox theme
-colorscheme gruvbox
-let g:gruvbox_contrast_dark = 'hard'
-let g:gruvbox_invert_tabline = 1
 
-"jellybeans theme
-"colorscheme jellybeans
+set background=dark
+let g:gruvbox_material_background = 'hard'
+colorscheme jellybeans
 
+"transparent background
 hi! Normal ctermbg=NONE guibg=NONE 
 "esasymotion
 let mapleader=" "
@@ -25,8 +24,7 @@ let g:airline_powerline_fonts = 1
 "emmet settings
 let g:user_emmet_leader_key=','
 let g:user_emmet_install_global = 0
-autocmd FileType html,css EmmetInstall
-
+autocmd FileType html,css,jsx EmmetInstall
 "coc config
 let g:coc_global_extensions = [
   \ 'coc-actions',
@@ -41,7 +39,8 @@ let g:coc_global_extensions = [
   \ 'coc-java',
   \ 'coc-emmet',
   \ 'coc-prettier',
-  \ 'coc-clangd'
+  \ 'coc-clangd',
+  \ 'coc-sql'
   \ ]
 "react config
 let g:vim_jsx_pretty_colorful_config = 1 " default 0
@@ -63,4 +62,5 @@ let g:signify_sign_delete_first_line = '‾'
 let g:signify_sign_change            = '~'
 let g:signify_sign_show_count = 0
 let g:signify_sign_show_text = 1
-
+"RainBow clode colorize
+let g:rainbow_active = 1
