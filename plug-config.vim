@@ -1,8 +1,5 @@
-"gruvbox theme
-
-set background=dark
-let g:gruvbox_material_background = 'hard'
-colorscheme jellybeans
+"vim theme
+colorscheme onedark
 
 "transparent background
 hi! Normal ctermbg=NONE guibg=NONE 

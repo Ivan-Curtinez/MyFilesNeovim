@@ -1,12 +1,12 @@
 call plug#begin('~/.config/nvim/plugged')
 "themes
-Plug 'morhetz/gruvbox'
-Plug 'nanotech/jellybeans.vim'
-Plug 'sainnhe/gruvbox-material'
+" Plug 'morhetz/gruvbox'
+" Plug 'nanotech/jellybeans.vim'
+" Plug 'sainnhe/gruvbox-material'
+Plug 'joshdick/onedark.vim'
 
 "mysql viim
 Plug 'https://github.com/kezhenxu94/vim-mysql-plugin.git'
-
 
 "prettier
 Plug 'prettier/vim-prettier', {
@@ -71,4 +71,8 @@ Plug 'mhinz/vim-signify'
 
 "git-nerdtree
 Plug 'xuyuanp/nerdtree-git-plugin'
+
+"tailwindcss
+Plug 'iamcco/coc-tailwindcss',  {'do': 'yarn install --frozen-lockfile && yarn run build'}
+
 call plug#end()
