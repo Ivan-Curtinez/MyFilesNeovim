@@ -1,8 +1,8 @@
 call plug#begin('~/.config/nvim/plugged')
 "themes
-" Plug 'morhetz/gruvbox'
-" Plug 'nanotech/jellybeans.vim'
-" Plug 'sainnhe/gruvbox-material'
+Plug 'morhetz/gruvbox'
+Plug 'nanotech/jellybeans.vim'
+Plug 'sainnhe/gruvbox-material'
 Plug 'joshdick/onedark.vim'
 
 "mysql viim
